@@ -1,0 +1,176 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    color: white;
+    list-style-type: none;
+}
+
+
+body{
+   background-image: url(./img/bgg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.picture{
+    border-radius: 15px;
+    box-shadow: 10px 11px 25px -4px rgba(0, 0, 0, 0.527);
+}
+
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.box{
+    width: 300px;
+    margin: 100px auto;
+
+}
+
+.search-icon,
+.logo{
+    cursor: pointer;
+}
+
+header{
+    height: 150px;
+    padding-top: 99px;
+    border-bottom: 1px solid white;
+}
+
+header,
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+.navigation li{ 
+    cursor: pointer;
+    padding: 8px;
+}
+
+.navigation li:hover {
+    color: rgb(240, 2, 2);
+    border-bottom: 2px solid rgb(240, 2, 2) ;
+    border-top: 2px solid rgb(240, 2, 2) ;
+}
+
+.main-text{
+    font-size: 64px;
+    font-weight: bold;
+    margin-top: 177px;
+    margin-bottom: 10px;
+}
+.secondary_text{
+    max-width: 527px;
+    font-size: 24px;
+    margin-bottom: 44px;
+}
+
+.btn{
+    background-color: #E30A17;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.social-icon-list{
+    display: flex;
+    gap: 30px;
+    margin-top: 180px;
+    margin-bottom: 40px;
+}
+
+.social-icon{
+    width: 21px;
+    fill: white;
+    margin-right: 19px;
+}
+
+.social-icon-list li:hover {
+    cursor: pointer;
+}
+
+.details_btn{
+    display: flex;
+    height: 54px;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #E30A17;
+    margin-right: 217px;
+    
+}
+
+.article_text_box{
+    width: 296px;
+    height: 155px;
+    margin-right: 130px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.article_text_boxh{
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 22px;
+    padding-top: 23px;
+    padding-left: 35px;
+}
+
+.article_text_boxp{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding-top: 5px;
+    padding-bottom: 24px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+
+
+.arrow{
+    width: 11px;
+    fill: white;
+    margin-left: 20px;
+    margin-right: 34px;
+}
+
+.article_class_container{
+    margin-left: 700px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
